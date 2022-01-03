@@ -21,7 +21,7 @@
 
 >## Layout 🎥
 
-<img src="https://github.com/giselle-ferreira/Quiz-Seriados/blob/main/assets/Quiz-Seriados.gif" />
+<img src="https://github.com/giselle-ferreira/Ecommerce-With-Bootstrap/blob/main/media/shoPDecor.gif" />
 
 >
 
