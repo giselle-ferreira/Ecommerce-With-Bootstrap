@@ -15,7 +15,7 @@
 <br>
 
 >## Website 💻
-+ [shoPDecor](https://quiz-series.netlify.app/)
++ [shoPDecor](https://shopdecor-ecommerce-bs.netlify.app/)
 
 <br>
 
