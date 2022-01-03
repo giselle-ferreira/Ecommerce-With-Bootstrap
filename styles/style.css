@@ -1,0 +1,66 @@
+html {
+  overflow-x: hidden;
+}
+
+.body {
+  width: 100vw;
+}
+
+header {
+  height: 34px;
+}
+
+.list-nav a:hover {
+  font-weight: bold;
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(.5)
+} 
+
+.divider {
+  margin: 35px auto 0 auto;
+  border-bottom: 1px solid #888;
+  width: 100px;
+}
+
+.divider2 {
+  margin: 35px auto 0 auto;
+  border-bottom: 1px solid #fff;
+  width: 100px;
+}
+
+.text-logo {
+  color: rgb(9, 170, 149);
+}
+
+.navbar .searchBar {
+  width: 320px;
+} 
+
+.container .carousel-inner .carousel-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-insp {
+  filter: brightness(.5)
+}
+
+footer {
+  height: 140px;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+}
+
+.icon-social:hover {
+  transform: scale(1.1);
+  transition: all ease 1s;
+}

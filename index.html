@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://i.postimg.cc/3NXHwPzs/favicon.jpg"
+      type="image/x-icon"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Style Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <title>shoPDecor</title>
+  </head>
+  <body>
+
+    <!-- header - info -->
+    <div class="container-fluid text-center bg-success mx-0">
+      <header class="d-flex justify-content-center">
+        <p class="text-light align-middle mt-1">Entrega em todo Brasil! <i class="bi bi-truck"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+          <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+        </svg></i></p> 
+      </header>
+    </div>
+    
+    <!-- Logo -->
+    <div class="container-fluid ">
+    <div class="bg-light mt-2 text-center">
+        <h5 class="fs-4 fw-bold text-logo m-0">shoPDecor</h5>
+    </div>
+  </div>
+
+     <!-- Navbar -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item list-nav">
+                   <a class="nav-link list-nav" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item list-nav">
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Coleções</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Verão</a></li>
+                      <li><a class="dropdown-item" href="#">Sempre Primavera</a></li>
+                      <li><a class="dropdown-item" href="#">All White</a></li>
+                      <li><a class="dropdown-item" href="#">Madeira Madeira</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item list-nav">
+                  <a class="nav-link" href="#">Acessórios</a>
+                </li>
+                <li class="nav-item list-nav">
+                  <a class="nav-link" href="#">Novidades</a>
+                </li>
+                <li class="nav-item list-nav">
+                  <a class="nav-link" href="#">Ambientes</a>
+                </li>
+                <li class="nav-item list-nav">
+                  <a class="nav-link" href="#">Promoções</a>
+                </li>
+              </ul>
+
+                <!-- Client Area -->
+                <div class="container mt-2 row-md">    
+                  <ul class="nav justify-content-end">
+                    <li class="nav-item me-4">
+                      <a href="#" class="text-decoration-none">
+                        <i class="bi bi-person"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#198754" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                        </svg></i>
+                        <small class="text-dark">Área do Cliente</small>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="text-decoration-none">
+                        <i class="bi bi-cart-check-fill"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#198754" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                        </svg></i>
+                        <small class="text-dark">Meu Carrinho</small>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+      <!-- Search bar-->
+          <div class="container-fluid navbar-transparent .bg-transparent mx-auto col-md-6 my-3">
+            <form class="d-flex" >
+              <input class="form-control me-2 rounded-pill searchBar" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success rounded-pill" type="submit">Search</button>
+            </form>
+          </div>
+     
+     <!-- Top - for back-to-top button -->     
+    <div id="#top"></div>  
+
+    <!-- Carousel -->
+    <div class="container d-flex justify-content-center mt-2">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://tinyurl.com/bndjh8x3" class="carousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fw-light">QUARTOS</h2>
+              <p>Para todos os quartos da sua casa.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src=" https://tinyurl.com/mrtteeca" class="carousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fw-light">ACESSÓRIOS PARA COZINHA</h2>
+              <p>Acessórios para sua cozinha e área de serviço.</p>
+            </div> 
+          </div>
+          <div class="carousel-item">
+            <img src="https://tinyurl.com/4u2hmznm" class="carousel-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="fw-light">ARTIGOS PARA HOME OFFICE</h2>
+              <p>Para que o trabalho em casa seja o mais agradável e prático possível.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Highlights -->
+  <div class="container my-4">
+    <div class="container my-5 text-center">
+      <h2 class="fs-2 fw-light">DESTAQUES</h2>
+      <div class="divider"></div>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="card h-100 rounded-3 m-2">
+          <img class="card-img-top" src="https://i.postimg.cc/NfB34C30/cadeira1.jpg"  alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-success">Cadeira Nova Shé</h5>
+            <div class="d-flex justify-content-between align-middle">
+              <p class="card-text">R$ 785,00</p>
+              <i class="bi bi-star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></i>
+            </div>
+            
+            <a href="#" class="btn btn-sm btn-success rounded-pill stretched-link">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- Card 2 -->
+       <div class="col">
+        <div class="card h-100 rounded-3 m-2">
+          <img src="https://i.postimg.cc/ZYvK9x2R/mesa1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-success">Mesa MadeMade</h5>
+            <div class="d-flex justify-content-between align-middle">
+              <p class="card-text">R$ 520,00</p>
+              <i class="bi bi-star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></i>
+            </div>
+            
+            <a href="#" class="btn btn-sm btn-success rounded-pill stretched-link">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="card h-100 rounded-3 m-2">
+          <img src="https://i.postimg.cc/W15wDVq0/vasoflores.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-success">Vaso Poche</h5>
+            <div class="d-flex justify-content-between align-middle">
+              <p class="card-text">R$ 190,00</p>
+              <i class="bi bi-star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></i>
+            </div>
+            
+            <a href="#" class="btn btn-sm btn-success rounded-pill stretched-link">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+        <div class="card h-100 rounded-3 m-2">
+          <img src="https://i.postimg.cc/FzZn8mMH/cadeira2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-success">Cadeira Adepá</h5>
+            <div class="d-flex justify-content-between align-middle">
+              <p class="card-text">R$ 630,00</p>
+              <i class="bi bi-star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></i>
+            </div>
+            
+            <a href="#" class="btn btn-sm btn-success rounded-pill stretched-link">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col">
+        <div class="card h-100 rounded-3 m-2">
+          <img src="https://i.postimg.cc/cCGH1KsT/luminaria.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-success">Luminária Hang</h5>
+            <div class="d-flex justify-content-between align-middle">
+              <p class="card-text">R$ 870,00</p>
+              <i class="bi bi-star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></i>
+            </div>
+            
+            <a href="#" class="btn btn-sm btn-success rounded-pill stretched-link">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col">
+        <div class="card h-100 rounded-3 m-2">
+          <img src="https://i.postimg.cc/bNy5bDnD/cadeira3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-success">Poltrona Caush</h5>
+            <div class="d-flex justify-content-between align-middle">
+              <p class="card-text">R$ 1.020,00</p>
+              <i class="bi bi-star">
+                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg> </svg> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+              </svg></i>
+            </div>
+            
+            <a href="#" class="btn btn-sm btn-success rounded-pill stretched-link">Adicionar ao carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- "See More" button -->
+  <div class="d-grid gap-2 col-3 mx-auto my-5">
+    <button class="btn rounded-pill btn-outline-secondary" type="button">VER MAIS</button>
+  </div>
+
+   <!-- Categories -->
+    <div class="pt-3 mt-5 text-center bg-success">
+      <div class="mt-5">
+        <h2 class="fs-2 fw-light text-light">CATEGORIAS</h2>
+        <h4 class="fs-4 fw-light text-light pt-1">Confira nossas principais categorias</h4>
+      </div>      
+      <div class="divider2"></div>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-5 pb-5 d-flex justify-content-center img-fluid mx-0">
+
+        <!-- Cat 1 -->
+        <div class="col">
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 120 120" fill="#fff">
+            <path d="M104.6 41.4V18.2C104.6 4.7 95.2 0 86.3 0H33.6C24.8 0 15.2 4.7 15.2 18.2V41.4C8.9 43 4.1 48.8 4.1 55.8v37.3c0 10.9 7.5 15.2 14.8 15.7v6.2c0 2.8 2.3 5 5 5h5.2c2.9 0 5.2-2.3 5.2-5v-6.2h51.6v6.2c0 2.8 2.3 5 5.2 5h5.2c2.8 0 5-2.3 5-5v-6.2c10.9-0.6 14.8-8.4 14.8-15.7V55.6C115.6 48.8 110.9 42.8 104.6 41.4ZM20.4 18.2c0-11.5 8.3-13.3 13.1-13.3h52.7c4.9 0 13.1 1.6 13.1 13.1v22.9c-7.5 0.6-13.6 7-13.6 14.8v3.4h-51.7v-3.4c0-7.8-6-14.1-13.6-14.8zM85.6 64.1V81.4H34.1V64.1ZM29 115.3h-5.2v-6.5h5.2zm67 0h-5.2v-6.5h5.2zM110.9 93.1h-0.2c0 4.9-1.8 10.9-11 10.9h-3.7-5.2-61.8-5.2-3.7C15.2 103.9 9.1 102 9.1 93.1V55.6c0-5.5 4.5-9.9 10.1-9.9 5.5 0 9.9 4.4 9.9 9.9v28.2c0 1.5 1.1 2.4 2.6 2.4h56.8c1.5 0 2.6-1 2.6-2.4V55.6c0-5.5 4.4-9.9 9.9-9.9 5.5 0 10.1 4.4 10.1 9.9z" stroke-width="1"></path>
+          </svg></a>
+          <h4 class="fw-light my-2 text-light">Sala de Estar</h4>
+        </div>
+
+        <!-- Cat 2 -->
+        <div class="col">
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 120 120" fill="#fff"><path d="M32 0C26.7 0 22.5 4.2 22.5 9.5L22.5 101.3C22.5 106.4 26.7 110.8 32 110.8L34.3 110.8 34.3 113.1C34.3 117 37.5 120.2 41.4 120.2L43.8 120.2C46.4 120.2 48.5 118.1 48.5 115.6L48.5 111 71.9 111 71.9 115.7C71.9 118.3 74 120.4 76.6 120.4L79 120.4C82.9 120.4 86.1 117.3 86.1 113.4L86.1 111.2 88.5 111.2C93.6 111.2 97.8 106.9 97.8 101.8L97.8 9.5C97.5 4.2 93.3 0 88.2 0L32 0zM32 4.7L88.2 4.7C90.8 4.7 92.9 6.8 92.9 9.5L92.9 40.4 27.2 40.4 27.2 9.5C27.2 6.8 29.3 4.7 32 4.7zM39 21C36.5 21 34.5 23.3 34.5 25.8L34.5 27.5C34.5 29.3 35.9 30.8 37.5 30.8L48 30.8C49.7 30.8 51 29.3 51 27.5L51 25.8C51 23.3 49.1 21 46.5 21L39 21zM39 24.3L46.5 24.3C47.4 24.3 48 24.9 48 25.8L48 27.5 37.5 27.5 37.5 25.8C37.5 24.9 38.1 24.3 39 24.3zM27.2 45L92.9 45 92.9 101.3C92.9 103.9 90.8 106 88.3 106L32 106C29.3 106 27.2 103.9 27.2 101.4L27.2 45zM37.5 54.1C35.9 54.1 34.5 55.6 34.5 57.4L34.5 58.9C34.5 61.6 36.5 63.8 39 63.8L46.5 63.8 46.5 63.9C49.1 63.9 51 61.6 51 58.9L51 57.4C51 55.6 49.7 54.1 48 54.1L37.5 54.1zM37.5 57.4L48 57.5 48 59C48 59.9 47.4 60.6 46.5 60.6L39 60.6C38.1 60.6 37.5 59.8 37.5 58.9L37.5 57.4zM38.9 110.8L43.7 110.8 43.7 115.4 41.3 115.4C40 115.4 38.9 114.4 38.9 113L38.9 110.8zM76.4 110.8L81.2 110.8 81.2 113C81.2 114.4 80.2 115.4 78.8 115.4L76.4 115.4 76.4 110.8z"></path></svg></a>
+          <h4 class="fw-light my-2 text-light">Cozinha</h4>
+        </div>
+        
+        <!-- Cat 3 -->
+        <div class="col">
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 120 120" fill="#fff"><path d="M22 10.7C16.7 10.7 12.5 15 12.5 20.2L12.5 51.4 9.5 51.4C4.2 51.4 0 55.6 0 60.9L0 75.2 0 87.9 0 107.3C0 108.3 0.9 109.3 2 109.3L10.5 109.3C11.6 109.3 12.5 108.3 12.5 107.3L12.5 89.9 107.5 89.9 107.5 107.3C107.5 108.3 108.3 109.3 109.5 109.3L118 109.3C119.1 109.3 120 108.3 120 107.3L120 87.9 120 75.2 120 60.9C120 55.6 115.6 51.4 110.5 51.4L107.5 51.4 107.5 20.2C107.5 15 103.3 10.7 98 10.7L22 10.7zM22 14.7L98 14.7C101 14.7 103.5 17.2 103.5 20.2L103.5 51.4 95.9 51.4 95.9 38.4C95.9 35.1 93.1 32.5 89.9 32.5L71.9 32.5C68.6 32.5 65.9 35.1 65.9 38.4L65.9 51.4 53.7 51.4 53.7 38.4C53.7 35.1 50.9 32.5 47.7 32.5L29.7 32.5C26.4 32.5 23.7 35.1 23.7 38.4L23.7 51.4 16.5 51.4 16.5 20.2C16.5 17.2 18.9 14.7 22 14.7zM29.7 36.5L47.7 36.5C48.8 36.5 49.7 37.4 49.7 38.4L49.7 51.4 27.7 51.4 27.7 38.4C27.7 37.4 28.6 36.5 29.7 36.5zM71.9 36.5L89.9 36.5C91 36.5 91.9 37.4 91.9 38.4L91.9 51.4 69.9 51.4 69.9 38.4C69.9 37.4 70.8 36.5 71.9 36.5zM9.5 55.3L14.5 55.3 25.7 55.3 105.5 55.3 110.5 55.3C113.5 55.3 116 57.8 116 60.9L116 73.3 4 73.3 4 60.9C4 57.8 6.5 55.3 9.5 55.3zM4 77.2L116 77.2 116 85.9 10.5 85.9 4 85.9 4 77.2zM4 89.9L8.6 89.9 8.6 105.3 4 105.3 4 89.9zM111.4 89.9L116 89.9 116 105.3 111.4 105.3 111.4 89.9z"></path></svg></a>
+          <h4 class="fw-light my-2 text-light">Quarto</h4>
+        </div>
+
+        <!-- Cat 4 -->
+        <div class="col">
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 120 120" fill="#fff"><path d="M2.4 38.2C1.3 38.2 0.5 39.2 0.5 40.3L0.5 120 4.2 120 4.2 42.2 9.1 42.2 9.1 78.9C9.1 80.1 10 81 10.9 81L40.6 81 40.6 120 44.5 120 44.5 78.9C44.5 77.8 43.7 77 42.6 77L12.8 77 12.8 40.3C12.8 39.2 12 38.2 10.9 38.2L2.4 38.2zM110.1 38.2C109 38.2 108.2 39.2 108.2 40.3L108.2 77 78.4 77C77.5 77 76.5 77.8 76.5 78.9L76.5 120 80.4 120 80.4 81 110.1 81C111 81 112 80.1 112 78.9L112 42.2 116.8 42.2 116.8 120 120.5 120 120.5 40.3C120.5 39.2 119.7 38.2 118.6 38.2L110.1 38.2zM22.4 42.9C21.5 42.9 20.6 43.8 20.6 44.9L20.6 56.8C20.5 57.9 21.3 58.9 22.4 58.9L53.8 58.9 53.8 120 57.6 120 57.6 58.9 63.5 58.9 63.5 120 67.2 120 67.2 58.9 99.1 58.9C100.2 58.9 101 57.9 100.9 56.8L100.9 44.9C100.9 43.8 100.1 42.9 99.1 42.9L22.4 42.9zM24.3 46.8L97.2 46.8 97.2 54.8 24.3 54.8 24.3 46.8zM10.9 86.2C10 86.2 9.1 87 9.1 88.1L9.1 120 12.8 120 12.8 90.1 32.1 90.1 32.1 120 35.8 120 35.8 88.1C35.8 87 35 86.2 33.9 86.2L10.9 86.2zM87.1 86.2C86 86.2 85.2 87 85.2 88.1L85.2 120 88.9 120 88.9 90.1 108.2 90.1 108.2 120 112 120 112 88.1C112 87 111 86.2 110.1 86.2L87.1 86.2z"></path></svg></a>
+          <h4 class="fw-light my-2 text-light">Sala de Jantar</h4>
+        </div>
+
+        <!-- Cat 5 -->
+        <div class="col">
+          <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 120 120" fill="#fff"><path d="M14.3 8.2C13.5 8.2 12.8 8.9 12.8 9.7L12.8 39.6 12.8 39.6C12.8 39.7 12.8 39.8 12.8 39.9L12.8 47.4C12.8 48.2 13.5 48.9 14.3 48.9L36.2 48.9 35.1 54.8 1.5 54.8C0.7 54.8 0 55.5 0 56.4L0 64.8C0 65.7 0.7 66.4 1.5 66.4L9.3 66.4 9.3 108.3 1.2 108.3 1.2 111.8 117.7 111.8 117.7 108.3 109.5 108.3 109.5 94.7 109.5 79.6 109.5 66.4 118.5 66.4C119.3 66.4 120 65.7 120 64.8L120 56.4C120 55.5 119.3 54.8 118.5 54.8L53.5 54.8 52.4 48.9 74.2 48.9C75 48.9 75.7 48.2 75.7 47.4L75.7 39.9C75.7 39.8 75.7 39.7 75.7 39.6L75.7 39.6 75.7 9.7C75.7 8.9 75 8.2 74.2 8.2L14.3 8.2zM15.8 11.2L72.7 11.2 72.7 38.4 15.8 38.4 15.8 11.2zM15.8 41.5L72.7 41.5 72.7 45.9 51.7 45.9C51.4 45.6 51 45.4 50.6 45.4L38 45.4C37.6 45.4 37.2 45.6 36.9 45.9L15.8 45.9 15.8 41.5zM39.2 48.9L49.4 48.9 50.3 54.2 38.2 54.2 39.2 48.9zM3 57.9L117 57.9 117 63.3 108.9 63.3C108.6 63.1 108.3 63 108 63L66.8 63C66.5 63 66.2 63.1 65.9 63.3L3 63.3 3 57.9zM12.8 66.4L65.3 66.4 65.3 80.1 65.3 95.2 65.3 108.3 12.8 108.3 12.8 66.4zM68.3 66.4L106.5 66.4 106.5 78.1 68.3 78.1 68.3 66.4zM82.7 69.9L82.7 73.4 92 73.4 92 69.9 82.7 69.9zM68.3 81.6L106.5 81.6 106.5 93.2 68.3 93.2 68.3 81.6zM82.7 86.2L82.7 89.7 92 89.7 92 86.2 82.7 86.2zM68.3 96.7L106.5 96.7 106.5 108.3 68.3 108.3 68.3 96.7zM82.7 101.4L82.7 104.9 92 104.9 92 101.4 82.7 101.4z"></path></svg></a>
+          <h4 class="fw-light my-2 text-light">Escritório</h4>
+        </div>
+
+     </div>
+  </div>
+
+  <!-- Inspirations -->
+  <div class="container img-fluid">
+    <div class="container my-5 text-center">
+      <h2 class="fs-2 fw-light">INSPIRAÇÕES</h2>
+      <div class="divider"></div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card  rounded-3">
+            <img src="https://tinyurl.com/yhrtcuj4" class="img-fluid card-insp" alt="Decoração de Living">
+            <div class="card-img-overlay">
+              <h3 class="card-title text-light fw-light">LIVING</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card  rounded-3 ">
+            <img src="https://tinyurl.com/2x59jht9" class="img-fluid card-insp" alt="Decoração de Quarto">
+            <div class="card-img-overlay">
+              <h3 class="card-title text-light fw-light">QUARTOS</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card  rounded-3"><a href="#">
+            <img src="https://tinyurl.com/49bxt2fu" class="img-fluid card-insp" alt="Decoração de cozinha"></a>
+            <div class="card-img-overlay">
+              <h3 class="card-title text-light fw-light">COZINHAS</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Media -->
+  <h2 class=" fs-5 text-secondary fw-light mt-5 text-center">Siga-nos em nossas redes sociais</h2>
+  <div class="container d-flex justify-content-center text-center mx-auto col-sm col-2 mt-1 mb-5">
+    <div class="col icon-social mx-1">
+      <i class="bi bi-twitter text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+      </svg></i>
+    </div>
+
+    <div class="col icon-social mx-1">
+      <i class="bi bi-facebook text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </svg></i>  
+    </div>
+
+    <div class="col icon-social mx-1">
+      <i class="bi bi-instagram text-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+      </svg></i>
+    </div>
+
+  </div>
+
+    <!-- Footer -->
+    <footer class="img-fluid mx-0 px-0">
+      <div class="img-fluid mx-0 px-0 mt-5">
+        <div class="d-flex justify-content-center text-center bg-success py-4 img-fluid ">
+
+          <!-- Cta - Newsletter -->
+          <div class="col-10">
+            <h3 class="fs-4 fw-light text-light mb-0">ASSINE NOSSA NEWSLETTER</h3>
+            <small class="fw-light text-light">E RECEBA NOSSAS PROMOÇÕES EM PRIMEIRA MÃO!</small>
+            <div class="input-group my-3">
+              <input type="email" class="form-control" placeholder="Coloque aqui seu melhor email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-light" type="button" id="button-addon2">Assinar</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- List 1 - Links info -->
+        <div class="contacts">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-3 pb-3 d-flex justify-content-center mx-0 px-0">
+            <div class="col">
+              <ul class="list-group list-group-flush ">
+                <li class="list-group-item text-secondary fw-bold ">Sobre Nós</li>
+                <li class="list-group-item"><a href="#">Sobre a shoPDecor</a></li>
+                <li class="list-group-item"><a href="#">Nossas Lojas</a></li>
+                <li class="list-group-item"><a href="#">Trabalhe Conosco</a></li>
+                <li class="list-group-item"><a href="#">Drive Thru</a></li>
+              </ul>
+            </div>
+
+            <!-- List 2 - Links info -->
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-secondary fw-bold ">Central</li>
+                <li class="list-group-item"><a href="#">Fale Conosco</a></li>
+                <li class="list-group-item"><a href="#">Principais Dúvidas</a></li>
+                <li class="list-group-item"><a href="#">Trocas e Devoluções</a></li>
+                <li class="list-group-item"><a href="#">Política e Privacidade</a></li>
+              </ul>
+            </div>
+
+            <!-- List 3 - Links info -->
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-secondary fw-bold ">Serviços</li>
+                <li class="list-group-item"><a href="#">Lista de Presentes</a></li>
+                <li class="list-group-item"><a href="#">Programa de Parceiros</a></li>
+                <li class="list-group-item"><a href="#">Vendas Corporativas</a></li>
+              </ul>
+            </div>
+
+            <!-- List 4 - Links info -->
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-secondary fw-bold ">shoPDecor e Você</li>
+                <li class="list-group-item"><a href="#">shoPDecor App</a></li>
+                <li class="list-group-item"><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Logo -->
+        <div class="d-flex row align-items-start">
+          <h5 class="fs-3 fw-bold text-logo ms-4 mb-0">shoPDecor</h5>
+          <small class="ms-4 text-muted">©<script>document.write(new Date().getFullYear())</script>
+            Todos os direitos reservados.</small>
+        </div>
+
+        <!-- Back to top Button -->
+        <div class="back-to-top d-flex justify-content-end mb-2">
+          <a href="#top" class="me-3" data-bs-toggle="tooltip" databs-placement="left" title="Topo da Página">
+            <i class="bi bi-arrow-up-square-fill text-success"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-arrow-up-square-fill text-decoration-none" viewBox="0 0 16 16">
+              <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+            </svg></i>
+          </a>
+          <script>
+            const tooltipTriggerList = [].slice.call(
+              document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            )
+            const tooltips = tooltipTriggerList.map(el => new bootstrap.Tooltip(el))
+          </script>
+        </div>
+        <hr>
+
+        <!-- All rights reserved -->
+        <div class="text-center mx-2">
+          <p>©<script>document.write(new Date().getFullYear())</script>
+        Todos os direitos reservados -  <a class="text-decoration-none" href="https://www.github.com/giselle-ferreira">Giselle Ferreira</a> para SoulCode Academy</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
